@@ -1,0 +1,103 @@
+* {
+  margin: 6px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center content vertically and horizontally */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The main container */
+.container {
+  width: 90%;
+  max-width: 800px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Header section */
+.hero h1 {
+  font-size: 2.8rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Sections like Skills, Certificates */
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  color: #1a73e8;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.section p {
+  color: #444;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* Skills grid */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.skills-grid span {
+  background-color: #e6f0fd;
+  color: #1a73e8;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+/* Certificates */
+.certificate-list {
+  list-style: none;
+  padding: 0;
+}
+
+.certificate-list li {
+  margin-bottom: 10px;
+}
+
+.certificate-list a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.certificate-list a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  color: #aaa;
+  font-size: 0.85rem;
+  margin-top: 20px;
+}
